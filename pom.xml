@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lowagie</groupId>
   <artifactId>itext</artifactId>
-  <version>2.1.8-SNAPSHOT</version>
+  <version>2.1.8</version>
   <packaging>bundle</packaging>
   <name>iText</name>
   <description>OSGi version</description>
@@ -13,9 +12,9 @@
   	<url>http://172.27.200.51:8080/view/3rd%20Party/job/iText/</url>
   </ciManagement>
   <scm>
-  	<connection>scm:svn:http://bned-fusion.blackned.intern/svn/itext/trunk</connection>
-  	<developerConnection>scm:svn:http://bned-fusion.blackned.intern/svn/itext/trunk</developerConnection>
-  	<url>http://bned-fusion.blackned.intern/svn/itext/trunk</url>
+  	<connection>scm:svn:http://bned-fusion.blackned.intern/svn/itext/tags/itext-2.1.8</connection>
+  	<developerConnection>scm:svn:http://bned-fusion.blackned.intern/svn/itext/tags/itext-2.1.8</developerConnection>
+  	<url>http://bned-fusion.blackned.intern/svn/itext/tags/itext-2.1.8</url>
   </scm>
   <build>
     <plugins>
